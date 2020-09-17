@@ -23,6 +23,20 @@ $(document).ready(function () {
       slidesToScroll: 1,
       dots: false,
       arrows: false,
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2,
+            }
+         },
+         {
+            breakpoint: 576,
+            settings: {
+               slidesToShow: 1,
+            }
+         },
+      ]
    });
    $('.left').on('click', function () {
       slider.slick('slickPrev');
