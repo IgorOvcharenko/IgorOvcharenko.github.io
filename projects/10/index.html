@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ECCO Sliders</title>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-path="">
+	<header class="header">
+		<div class="container">
+			<img src="img/legs-2.png" alt="" class="header__legs-2 wow fadeInLeft">
+			<img src="img/spot-1.png" alt="" class="header__spot-1">
+			<img src="img/legs-1.png" alt="" class="header__legs-1 wow fadeInLeft">
+			<img src="img/spot-2.png" alt="" class="header__spot-2">
+			<img src="img/product-decor-1.png" alt="" class="header__product-decor wow fadeInRight">
+			<img src="img/footprint-1.png" alt="" data-wow-delay="0.5s" class="header__footprint-1 wow bounceIn">
+			<img src="img/footprint-2.png" alt="" data-wow-delay="0.6s" class="header__footprint-2 wow bounceIn">
+			<img src="img/footprint-1.png" alt="" data-wow-delay="0.7s" class="header__footprint-3 wow bounceIn">
+			<img src="img/footprint-2.png" alt="" data-wow-delay="0.8s" class="header__footprint-4 wow bounceIn">
+			<div class="header__inner">
+				<h1 class="header__title wow fadeInLeft">
+					КОЖАНЫЕ ШЛЕПАНЦЫ
+				</h1>
+				<p class="header__suptitle wow fadeInLeft">
+					ОТ БРЕНДА ECCO
+				</p>
+				<div class="header__wrap">
+					<img src="img/leafs-1.png" alt="" class="header__leafs-1">
+					<img src="img/round-1.png" alt="" class="header__round">
+					<img src="img/leafs-2.png" alt="" class="header__leafs-2">
+					<div class="header__slider">
+						<img src="img/product-1.png" alt="" data-number="01" class="header__slider__image">
+						<img src="img/product-2.png" alt="" data-number="02" class="header__slider__image">
+						<img src="img/product-3.png" alt="" data-number="03" class="header__slider__image">
+					</div>
+					<div class="sale">
+						<p class="sale__percent">-70%</p>
+						<p class="sale__text">Sale off</p>
+					</div>
+					<div class="arrows">
+						<div class="arrow left"></div>
+						<div class="arrow right"></div>
+					</div>
+					<div class="numbers">
+						<span class="number active-slide">01</span>
+						<span class="line"></span>
+						<span class="number next-slide">02</span>
+						<span class="number after-next-slide">03</span>
+					</div>
+				</div>
+				<p class="header__product-name">
+					<span class="span">ПРОИЗВОДИТЕЛЬ </span> СНИЖАЕТ ЦЕНЫ
+					<span class="no-wrap">ОПЛАТА ПРИ ПОЛУЧЕНИИ!</span>
+				</p>
+				<div class="header__button-wrap">
+					<div class="price">
+						<span class="old-price">4800 грн</span>
+						<span class="new-price">1295 грн</span>
+					</div>
+					<a href="#order" class="button">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="advantages">
+			<div class="container">
+				<div class="advantages__inner">
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Мировой бренд с историей
+						</p>
+					</div>
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Комфортные летние модели
+						</p>
+					</div>
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Натуральная кожа
+						</p>
+					</div>
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Стильная новинка лета
+						</p>
+					</div>
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Быстрая доставка
+						</p>
+					</div>
+					<div class="advantages__item wow flipInX">
+						<p class="advantages__text">
+							Безопасная оплата
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="video-block">
+			<div class="container">
+				<img src="img/spot-3.png" alt="" class="video-block__spot-1">
+				<img src="img/spot-4.png" alt="" class="video-block__spot-2">
+				<img src="img/spot-5.png" alt="" class="video-block__spot-3">
+				<img src="img/spot-5.png" alt="" class="video-block__spot-4">
+				<div class="video-block__inner">
+					<div class="video" id="video">
+						<div class="video-block__side">
+							<p class="video-block__side__text">
+								При покупке двух пар скидка
+								<span class="span">200 грн <br> + спрей в подарок</span>
+							</p>
+						</div>
+						<div class="video-inner">
+							<div class="iframe-fluid">
+								<a class="video-link" href="https://www.youtube.com/watch?v=cFWczf59oCU">
+									<picture class="video-poster">
+										<!-- <source srcset="https://i.ytimg.com/vi_webp/cFWczf59oCU/maxresdefault.webp"
+											type="image/webp"> -->
+										<img src="img/video-poster.png" alt="">
+									</picture>
+								</a>
+								<div class="video-button">
+									<!--<img src="img/video-button-icon.png" alt="">-->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-block__wrap">
+						<img src="img/leafs-3.png" alt="" class="video-block__leafs">
+						<img src="img/product-4.png" alt="" class="video-block__product">
+						<p class="video-block__advantages wow flipInX">
+							<span class="line"></span>
+							СОЧЕТАЮТСЯ <span class="span">С ЛЮБЫМ СТИЛЕМ </span>
+						</p>
+						<p class="video-block__advantages wow flipInX">
+							<span class="line"></span>
+							ГИБКОСТЬ <span class="span">И АМОРТИЗАЦИЯ</span>
+						</p>
+						<p class="video-block__advantages wow flipInX">
+							<span class="line"></span>
+							ПРЕМИАЛЬНЫЙ <span class="span">КОМФОРТ</span>
+						</p>
+					</div>
+					<div class="video-block__button-wrap">
+						<div class="price">
+							<span class="old-price">4800 грн</span>
+							<span class="new-price">1295 грн</span>
+						</div>
+						<a href="#order" class="button">Заказать</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery">
+			<div class="container">
+				<div class="gallery__slider">
+					<a data-number="01" data-fancybox="gallery" href="img/gallery/1.jpg" class="gallery__link">
+						<img src="img/gallery/1.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="02" data-fancybox="gallery" href="img/gallery/2.jpg" class="gallery__link">
+						<img src="img/gallery/2.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="03" data-fancybox="gallery" href="img/gallery/3.jpg" class="gallery__link">
+						<img src="img/gallery/3.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="04" data-fancybox="gallery" href="img/gallery/4.jpg" class="gallery__link">
+						<img src="img/gallery/4.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="05" data-fancybox="gallery" href="img/gallery/5.jpg" class="gallery__link">
+						<img src="img/gallery/5.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="06" data-fancybox="gallery" href="img/gallery/6.jpg" class="gallery__link">
+						<img src="img/gallery/6.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="07" data-fancybox="gallery" href="img/gallery/7.jpg" class="gallery__link">
+						<img src="img/gallery/7.jpg" alt="" class="gallery__image">
+					</a>
+					<a data-number="08" data-fancybox="gallery" href="img/gallery/8.jpg" class="gallery__link">
+						<img src="img/gallery/8.jpg" alt="" class="gallery__image">
+					</a>
+				</div>
+				<div class="arrows">
+					<div class="arrow left"></div>
+					<div class="arrow right"></div>
+				</div>
+				<div class="numbers">
+					<span class="number active-slide">01</span>
+					<span class="line"></span>
+					<span class="number next-slide">02</span>
+					<span class="number after-next-slide">03</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="spray">
+			<div class="container">
+				<div class="spray__bg"></div>
+				<img src="img/leafs-4.png" alt="" class="spray__leafs-1">
+				<div class="spray__inner">
+					<h3 class="spray__title wow fadeInLeft">
+						Защитный спрей и аквабронь ECCO
+					</h3>
+					<p class="spray__text wow fadeInLeft">
+						Защитный спрей ECCO REPEL для всех видов кож, замши, нубука, текстиля, меха и синтетических
+						материалов.
+					</p>
+					<p class="spray__text wow fadeInLeft">
+						Водоотталкивающий спрей ECCO REFRESH даже при сильном намокании материала верха нейтрализует
+						сырость и
+						увеличивает срок службы.
+					</p>
+					<div class="price wow fadeInLeft">
+						<span class="old-price">4800 грн</span>
+						<span class="new-price">1295 грн</span>
+					</div>
+					<p class="spray__offer wow fadeInLeft">
+						только сейчас по супер цене
+					</p>
+				</div>
+				<div class="spray__wrap">
+					<img src="img/leafs-5.png" alt="" class="spray__leafs-2">
+					<img src="img/sprays.png" alt="" class="spray__product wow bounceIn">
+					<img src="img/logo.png" alt="" class="spray__logo">
+					<div class="spray__names">
+						<p class="spray__name">Водооталкивающий спрей</p>
+						<p class="spray__name">Защитный спрей</p>
+					</div>
+				</div>
+				<div class="spray__form">
+					<h4 class="spray__subtitle wow fadeInRight">100% защита от грязи и влаги</h4>
+					<p class="spray__list wow fadeInRight">
+						<span class="span">Обьем:</span> 100 мл;
+					</p>
+					<p class="spray__list wow fadeInRight">
+						<span class="span">Цвет:</span> нейтральный.
+					</p>
+					<form action="" class="order-form" method="POST">
+						<div class="form-group wow fadeInRight">
+							<input type="text" class="form-control input" name="name" placeholder="Имя" required
+								autocomplete="off">
+						</div>
+						<div class="form-group wow fadeInRight">
+							<input type="text" class="form-control input" name="phone" placeholder="Телефон" required
+								autocomplete="off">
+						</div>
+						<div class="spray__choice wow fadeInRight">
+							Выбрать спрей:
+							<span class="color white active"></span>
+							<span class="color blue "></span>
+						</div>
+						<button type="submit" class="button wow fadeInRight">Заказать</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="products">
+			<div class="container">
+				<img src="img/spot-5.png" alt="" class="products__spot">
+				<div  id="order" class="item first">
+					<div class="item__left">
+						<img src="img/leafs-6.png" alt="" class="item__leafs-1">
+						<img src="img/leafs-7.png" alt="" class="item__leafs-2">
+						<div class="item__left__inner">
+							<div class="item__square">
+								<div class="item__inner-square wow fadeIn">
+									<img src="img/item-1.png" alt="" class="item__product">
+								</div>
+							</div>
+						</div>
+						<div class="item__gallery">
+							<a data-fancybox="gallery" href="img/catalog/1/1.jpg" data-wow-delay="0.1s"
+								class="item__gallery__link wow bounceIn">
+								<img src="img/catalog/1/1.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery" href="img/catalog/1/2.jpg" data-wow-delay="0.2s"
+								class="item__gallery__link wow bounceIn">
+								<img src="img/catalog/1/2.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery" href="img/catalog/1/3.jpg" data-wow-delay="0.3s"
+								class="item__gallery__link wow bounceIn">
+								<img src="img/catalog/1/3.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery" href="img/catalog/1/4.jpg" data-wow-delay="0.4s"
+								class="item__gallery__link wow bounceIn">
+								<img src="img/catalog/1/4.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery" href="img/catalog/1/5.jpg" data-wow-delay="0.5s"
+								class="item__gallery__link wow bounceIn">
+								<img src="img/catalog/1/5.jpg" alt="" class="item__gallery__image"></a>
+						</div>
+					</div>
+					<div class="item__right">
+						<h5 class="item__subtitle">
+							Женские шлепанцы (7592)
+						</h5>
+						<h3 class="item__title">
+							ECCO flowt lx w zw6179
+						</h3>
+						<div class="price">
+							<span class="old-price">4800 грн</span>
+							<span class="new-price">1295 грн</span>
+						</div>
+						<ul class="item__description">
+							<li class="item__description__item">
+								<span class="item__description__left">Сезон:</span>
+								<span class="item__description__right">Лето 2020</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Верх:</span>
+								<span class="item__description__right">Натуральная кожа</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Каблук:</span>
+								<span class="item__description__right">Ниже 30мм</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Подошва:</span>
+								<span class="item__description__right">Полиуретан</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Стиль:</span>
+								<span class="item__description__right">Повседневный (casual)</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Цвет:</span>
+								<span class="item__description__right">Розовый</span>
+							</li>
+						</ul>
+					</div>
+					<div class="item__form wow bounceIn">
+						<form action="" method="POST" class="order-form item__form__inner">
+							<p class="item__offer">
+								При покупке двух пар скидка <span class="span">200 грн + спрей в подарок</span>
+							</p>
+							<p class="item__sizes">
+								Длина 23 - 26 см
+							</p>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="name" placeholder="Имя" required
+									autocomplete="off">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="phone" placeholder="Телефон" required
+									autocomplete="off">
+							</div>
+							<div class="select">
+								<select>
+									<option selected value="не указан">Размер:</option>
+									<option value="36">36 (23 см)</option>
+									<option value="37">37 (23,5см)</option>
+									<option value="38">38 (24см)</option>
+									<option value="39">39 (25см)</option>
+									<option value="40">40 (26 см)</option>
+								</select>
+							</div>
+							<button type="submit" class="button">Заказать</button>
+						</form>
+					</div>
+				</div>
+				<div class="item second">
+					<div class="item__left">
+						<img src="img/leafs-6.png" alt="" class="item__leafs-1">
+						<img src="img/leafs-7.png" alt="" class="item__leafs-2">
+						<div class="item__left__inner">
+							<div class="item__square">
+								<div class="item__inner-square wow fadeIn">
+									<img src="img/item-2.png" alt="" class="item__product">
+								</div>
+							</div>
+						</div>
+						<div class="item__gallery">
+							<a data-fancybox="gallery2" href="img/catalog/2/1.jpg" data-wow-delay="0.1s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/2/1.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery2" href="img/catalog/2/2.jpg" data-wow-delay="0.2s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/2/2.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery2" href="img/catalog/2/3.jpg" data-wow-delay="0.3s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/2/3.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery2" href="img/catalog/2/4.jpg" data-wow-delay="0.4s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/2/4.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery2" href="img/catalog/2/5.jpg" data-wow-delay="0.5s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/2/5.jpg" alt=""
+									class="item__gallery__image"></a>
+						</div>
+					</div>
+					<div class="item__right">
+						<h5 class="item__subtitle">
+							МУЖСКИЕ ШЛЕПАНЦЫ (7713)
+						</h5>
+						<h3 class="item__title">
+							ECCO FLOWT LX
+						</h3>
+						<div class="price">
+							<span class="old-price">4800 грн</span>
+							<span class="new-price">1295 грн</span>
+						</div>
+						<ul class="item__description">
+							<li class="item__description__item">
+								<span class="item__description__left">Сезон:</span>
+								<span class="item__description__right">Лето</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Верх:</span>
+								<span class="item__description__right">Натуральная кожа</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Подкладка:</span>
+								<span class="item__description__right">Натуральная кожа</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Подошва:</span>
+								<span class="item__description__right">Полиуретан</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Стиль:</span>
+								<span class="item__description__right">Повседневный (casual)</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Цвет:</span>
+								<span class="item__description__right">Коричневый</span>
+							</li>
+						</ul>
+					</div>
+					<div class="item__form wow bounceIn">
+						<form action="" method="POST" class="order-form item__form__inner">
+							<p class="item__offer">
+								При покупке двух пар скидка <span class="span">200 грн + спрей в подарок</span>
+							</p>
+							<p class="item__sizes">
+								Длина 26,5 - 29,5 см
+							</p>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="name" placeholder="Имя" required
+									autocomplete="off">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="phone" placeholder="Телефон" required
+									autocomplete="off">
+							</div>
+							<div class="select">
+								<select>
+									<option selected value="не указан">Размер:</option>
+									<option value="40">40 (26,5 см)</option>
+									<option value="41">41 (27,5см)</option>
+									<option value="42">42 (28см)</option>
+									<option value="43">43 (28,5см)</option>
+									<option value="44">44 (29 см)</option>
+									<option value="45">45 (29,5 см)</option>
+								</select>
+							</div>
+							<button type="submit" class="button">Заказать</button>
+						</form>
+					</div>
+				</div>
+				<div class="item third">
+					<div class="item__left">
+						<img src="img/leafs-6.png" alt="" class="item__leafs-1">
+						<img src="img/leafs-7.png" alt="" class="item__leafs-2">
+						<div class="item__left__inner">
+							<div class="item__square">
+								<div class="item__inner-square wow fadeIn">
+									<img src="img/item-3.png" alt="" class="item__product">
+								</div>
+							</div>
+						</div>
+						<div class="item__gallery">
+							<a data-fancybox="gallery3" href="img/catalog/3/1.jpg" data-wow-delay="0.1s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/3/1.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery3" href="img/catalog/3/2.jpg" data-wow-delay="0.2s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/3/2.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery3" href="img/catalog/3/3.jpg" data-wow-delay="0.3s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/3/3.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery3" href="img/catalog/3/4.jpg" data-wow-delay="0.4s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/3/4.jpg" alt=""
+									class="item__gallery__image"></a>
+							<a data-fancybox="gallery3" href="img/catalog/3/5.jpg" data-wow-delay="0.5s"
+								class="item__gallery__link wow bounceIn"><img src="img/catalog/3/5.jpg" alt=""
+									class="item__gallery__image"></a>
+						</div>
+					</div>
+					<div class="item__right">
+						<h5 class="item__subtitle">
+							ЖЕНСКИЕ КЕДЫ (7700)
+						</h5>
+						<h3 class="item__title">
+							ECCO SOFT 8 LADIES
+						</h3>
+						<div class="price">
+							<span class="old-price">4800 грн</span>
+							<span class="new-price">1295 грн</span>
+						</div>
+						<ul class="item__description">
+							<li class="item__description__item">
+								<span class="item__description__left">Сезон:</span>
+								<span class="item__description__right">Весна-Лето</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Каблук:</span>
+								<span class="item__description__right">Ниже 30 мм</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Верх:</span>
+								<span class="item__description__right">Натуральная кожа</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Материал подошвы:</span>
+								<span class="item__description__right">Термополиуретан</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Стиль:</span>
+								<span class="item__description__right">Ежедневный (casual)</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Цвет:</span>
+								<span class="item__description__right">Желтый</span>
+							</li>
+						</ul>
+					</div>
+					<div class="item__form wow bounceIn">
+						<form action="" method="POST" class="order-form item__form__inner">
+							<p class="item__offer">
+								При покупке двух пар скидка <span class="span">200 грн + спрей в подарок</span>
+							</p>
+							<p class="item__sizes">
+								Длина 24 - 26,5 см
+							</p>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="name" placeholder="Имя" required
+									autocomplete="off">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="phone" placeholder="Телефон" required
+									autocomplete="off">
+							</div>
+							<div class="select">
+								<select>
+									<option selected value="не указан">Размер:</option>
+									<option value="36">36 (24 см)</option>
+									<option value="37">37 (25см)</option>
+									<option value="38">38 (25,5см)</option>
+									<option value="39">39 (26см)</option>
+									<option value="40">40 (26,5 см)</option>
+								</select>
+							</div>
+							<button type="submit" class="button">Заказать</button>
+						</form>
+					</div>
+				</div>
+				<div class="item fourth">
+					<div class="item__left">
+						<img src="img/leafs-6.png" alt="" class="item__leafs-1">
+						<img src="img/leafs-7.png" alt="" class="item__leafs-2">
+						<div class="item__left__inner">
+							<div class="item__square">
+								<div class="item__inner-square wow fadeIn">
+									<img src="img/item-4-white.png" alt="" data-color="white" class="item__product active">
+									<img src="img/item-4-pink.png" alt="" data-color="pink" class="item__product ">
+									<img src="img/item-4-powder.png" alt="" data-color="powder" class="item__product ">
+								</div>
+							</div>
+						</div>
+						<div class="item__gallery active" data-color="white">
+							<a data-fancybox="gallery4" href="img/catalog/4/white/1.jpg" data-wow-delay="0.1s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/white/1.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery4" href="img/catalog/4/white/2.jpg" data-wow-delay="0.2s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/white/2.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery4" href="img/catalog/4/white/3.jpg" data-wow-delay="0.3s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/white/3.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery4" href="img/catalog/4/white/4.jpg" data-wow-delay="0.4s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/white/4.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery4" href="img/catalog/4/white/5.jpg" data-wow-delay="0.5s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/white/5.jpg" alt="" class="item__gallery__image"></a>
+						</div>
+						<div class="item__gallery" data-color="pink">
+							<a data-fancybox="gallery5" href="img/catalog/4/pink/1.jpg" data-wow-delay="0.1s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/pink/1.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery5" href="img/catalog/4/pink/2.jpg" data-wow-delay="0.2s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/pink/2.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery5" href="img/catalog/4/pink/3.jpg" data-wow-delay="0.3s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/pink/3.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery5" href="img/catalog/4/pink/4.jpg" data-wow-delay="0.4s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/pink/4.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery5" href="img/catalog/4/pink/5.jpg" data-wow-delay="0.5s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/pink/5.jpg" alt="" class="item__gallery__image"></a>
+						</div>
+						<div class="item__gallery" data-color="powder">
+							<a data-fancybox="gallery6" href="img/catalog/4/powder/1.jpg" data-wow-delay="0.1s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/powder/1.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery6" href="img/catalog/4/powder/2.jpg" data-wow-delay="0.2s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/powder/2.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery6" href="img/catalog/4/powder/3.jpg" data-wow-delay="0.3s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/powder/3.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery6" href="img/catalog/4/powder/4.jpg" data-wow-delay="0.4s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/powder/4.jpg" alt="" class="item__gallery__image"></a>
+							<a data-fancybox="gallery6" href="img/catalog/4/powder/5.jpg" data-wow-delay="0.5s" class="item__gallery__link wow bounceIn"><img src="img/catalog/4/powder/5.jpg" alt="" class="item__gallery__image"></a>
+						</div>
+					</div>
+					<div class="item__right">
+						<h5 class="item__subtitle">
+							ЖЕНСКИЕ КЕДЫ (7701; 7702; 7703)
+						</h5>
+						<h3 class="item__title">
+							ECCO LEISURE
+						</h3>
+						<div class="price">
+							<span class="old-price">4800 грн</span>
+							<span class="new-price">1295 грн</span>
+						</div>
+						<ul class="item__description">
+							<li class="item__description__item">
+								<span class="item__description__left">Сезон:</span>
+								<span class="item__description__right">Весна-Лето-Осень</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Каблук:</span>
+								<span class="item__description__right">Ниже 30 мм</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Верх:</span>
+								<span class="item__description__right">Натуральная кожа</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Подкладка:</span>
+								<span class="item__description__right">Комбинированная</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Подошва:</span>
+								<span class="item__description__right">Полиуретан</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Стиль:</span>
+								<span class="item__description__right">Casual</span>
+							</li>
+							<li class="item__description__item">
+								<span class="item__description__left">Цвет:</span>
+								<span class="item__description__right">Белый; Бронза; Розовый</span>
+							</li>
+						</ul>
+						<div class="item__choice">
+							<div class="item__choice__wrap white">
+								<img src="img/catalog/4/choice-1.png" alt="" class="item__choice__image">
+							</div>
+							<div class="item__choice__wrap pink">
+								<img src="img/catalog/4/choice-2.png" alt="" class="item__choice__image">
+							</div>
+							<div class="item__choice__wrap powder">
+								<img src="img/catalog/4/choice-3.png" alt="" class="item__choice__image">
+							</div>
+						</div>
+					</div>
+					<div class="item__form wow bounceIn">
+						<form action="" method="POST" class="order-form item__form__inner">
+							<p class="item__offer">
+								При покупке двух пар скидка <span class="span">200 грн + спрей в подарок</span>
+							</p>
+							<p class="item__sizes">
+								Длина 23,5 - 25,5 см
+							</p>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="name" placeholder="Имя" required
+									autocomplete="off">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input" name="phone" placeholder="Телефон" required
+									autocomplete="off">
+							</div>
+							<div class="select">
+								<select>
+									<option selected value="не указан">Размер:</option>
+									<option value="36">36 (23,5 см)</option>
+									<option value="37">37 (24см)</option>
+									<option value="38">38 (24,5см)</option>
+									<option value="39">39 (25см)</option>
+									<option value="40">40 (25,5 см)</option>
+								</select>
+							</div>
+							<button type="submit" class="button">Заказать</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="how-we-work">
+			<div class="container">
+				<img src="img/spot-3.png" alt="" class="how-we-work__spot-1">
+				<img src="img/spot-5.png" alt="" class="how-we-work__spot-2">
+				<div class="how-we-work__wrap">
+					<div data-wow-delay="0.1s" class="how-we-work__item wow fadeInUp">
+						<span class="how-we-work__number">01</span>
+						<div class="how-we-work__inner">
+							<img src="img/icon-2.png" alt="" class="how-we-work__image">
+							<p class="how-we-work__text">
+								Вы оставляете заявку
+							</p>
+						</div>
+					</div>
+					<div data-wow-delay="0.2s" class="how-we-work__item wow fadeInUp">
+						<span class="how-we-work__number">02</span>
+						<div class="how-we-work__inner">
+							<img src="img/icon-3.png" alt="" class="how-we-work__image">
+							<p class="how-we-work__text">
+								МЫ СВЯЗЫВАЕМСЯ С ВАМИ
+							</p>
+						</div>
+					</div>
+					<div data-wow-delay="0.3s" class="how-we-work__item wow fadeInUp">
+						<span class="how-we-work__number">03</span>
+						<div class="how-we-work__inner">
+							<img src="img/icon-4.png" alt="" class="how-we-work__image">
+							<p class="how-we-work__text">
+								ОТПРАВЛЯЕМ ВАШУ ПОСЫЛКУ
+							</p>
+						</div>
+					</div>
+					<div data-wow-delay="0.4s" class="how-we-work__item wow fadeInUp">
+						<span class="how-we-work__number">04</span>
+						<div class="how-we-work__inner">
+							<img src="img/icon-5.png" alt="" class="how-we-work__image">
+							<p class="how-we-work__text">
+								ВЫ ОПЛАЧИВАЕТЕ ЕЕ НА ПОЧТЕ
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<div class="container">
+				<div class="testimonials__slider">
+					<div class="testimonials__item">
+						<img src="img/testimonials/1.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Олеся
+						</p>
+						<p class="testimonials__text">
+							Кроссы и шлепки классные, подошва очень хорошего качества, гнется и ведет себя довольно эластично.
+							Спасибо.
+						</p>
+					</div>
+					<div class="testimonials__item">
+						<img src="img/testimonials/2.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Виктор
+						</p>
+						<p class="testimonials__text">
+							Купил шлепки экко фловт. Пришли через 2 дня на почту. Думаю на лето самое то : лёгкие ,ноги не
+							потеют , амортизация , кожаная стелька. По цене норм, больше на летнюю обувь тратить не планировал.
+						</p>
+					</div>
+					<div class="testimonials__item">
+						<img src="img/testimonials/3.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Анна Захарова
+						</p>
+						<p class="testimonials__text">
+							Получила эти шлепанцы. Думаю для тех кто собирается покупать будет полезно узнать, что шлепки экко
+							полностью соответствуют фото на сайте. Качество заслуживает стоимости - все на высоте. Посмотрим
+							как покажут себя со временем.
+						</p>
+					</div>
+					<div class="testimonials__item">
+						<img src="img/testimonials/4.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Анастасия
+						</p>
+						<p class="testimonials__text">
+							Качественные и очень удобные кроссовки Ecco Soft 8!
+							Подошва белая для кроссовок – уже вариант, который стал оптимальным. Плюс крепкая, можно
+							использовать для бега.
+							Консультанту большое спасибо за работу! Все как и оговаривалось при оформлении заказа.
+						</p>
+					</div>
+					<div class="testimonials__item">
+						<img src="img/testimonials/5.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Эрика
+						</p>
+						<p class="testimonials__text">
+							Шлепанцы супер! Заказала дочке. Она в восторге!!! Фото соответствует действительности. Получила в
+							тот же день, и оплатила на новой почте. Хотя еще и удивилась, что с этим вирусом по миру, почта так
+							оперативно доставляет.
+						</p>
+					</div>
+					<div class="testimonials__item">
+						<img src="img/testimonials/6.jpg" alt="" class="testimonials__image">
+						<p class="testimonials__name">
+							Татьяна
+						</p>
+						<p class="testimonials__text">
+							Розовый великолепно смотрится, едем летом на море)) Кожаные, мягкие и солидно на ноге выглядят.
+							Возвращалась с почты в приподнятом настроении даже)))
+						</p>
+					</div>
+				</div>
+				<div class="arrows">
+					<div class="arrow left"></div>
+					<div class="arrow right"></div>
+				</div>
+				<div class="testimonials__inner">
+					<h3 data-wow-delay="0.1s" class="testimonials__title wow fadeInRight">
+						Ecco flowt lx w zw
+					</h3>
+					<img src="img/product-5.png" alt="" data-wow-delay="0.4s" class="testimonials__product wow fadeInRight">
+					<p data-wow-delay="0.2s" class="testimonials__suptitle wow fadeInRight">
+						В ассортименте <span class="span">интернет-магазина ECCO</span> представлены кожаные женские шлепки
+						<span class="span">по оптимальной стоимости</span> на
+						рынке Украины.
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<img src="img/footprint-1.png" alt="" data-wow-delay="1s" class="footer__footprint-1 wow bounceIn">
+			<img src="img/footprint-2.png" alt="" data-wow-delay="1.2s" class="footer__footprint-2 wow bounceIn">
+			<img src="img/footprint-1.png" alt="" data-wow-delay="1.3s" class="footer__footprint-3 wow bounceIn">
+			<img src="img/footprint-2.png" alt="" data-wow-delay="1.4s" class="footer__footprint-4 wow bounceIn">
+			<img src="img/legs-3.png" alt="" class="footer__legs">
+			<img src="img/spot-6.png" alt="" class="footer__spot">
+			<div class="footer__inner">
+				<h3 data-wow-delay="0.1s" class="footer__subtitle wow fadeInRight">
+					заказывай уже сегодня
+				</h3>
+				<h2 data-wow-delay="0.2s" class="footer__title wow fadeInRight">
+					по доступной цене
+				</h2>
+				<div class="header__wrap">
+					<img src="img/leafs-8.png" alt="" class="header__leafs-1">
+					<img src="img/round-1.png" alt="" class="header__round">
+					<img src="img/leafs-2.png" alt="" class="header__leafs-2">
+					<div class="header__slider">
+						<img src="img/product-1.png" alt="" data-number="01" class="header__slider__image">
+						<img src="img/product-2.png" alt="" data-number="02" class="header__slider__image">
+						<img src="img/product-3.png" alt="" data-number="03" class="header__slider__image">
+					</div>
+					<div class="sale">
+						<p class="sale__percent">-70%</p>
+						<p class="sale__text">Sale off</p>
+					</div>
+					<div class="arrows">
+						<div class="arrow left"></div>
+						<div class="arrow right"></div>
+					</div>
+					<div class="numbers">
+						<span class="number active-slide">01</span>
+						<span class="line"></span>
+						<span class="number next-slide">02</span>
+						<span class="number after-next-slide">03</span>
+					</div>
+				</div>
+				<p data-wow-delay="0.5s" class="header__product-name wow fadeInRight">
+					При покупке двух пар <span class="span">скидка <span class="no-wrap">200 грн</span> <span class="no-wrap">+ спрей в
+							подарок</span></span>
+				</p>
+				<div class="header__button-wrap">
+					<div data-wow-delay="0.3s" class="price wow fadeInRight">
+						<span class="old-price">4800 грн</span>
+						<span class="new-price">1295 грн</span>
+					</div>
+					<a href="#order" data-wow-delay="0.4s" class="button wow fadeInRight">Заказать</a>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__bottom__inner">
+					<p class="copyright">Все права защищены</p>
+					<p class="address">ТОВ "SaleShop" г.Харьков, ул. Шевченка, 32, ЕГРПОУ 39129343</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+
+</html>
