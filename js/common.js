@@ -46,8 +46,9 @@ $(document).ready(function () {
    });
 
    $('a[href*="#"]').click(function () {
+      var navHeight = $('.navbar').outerHeight()
       $('html, body').animate({
-         scrollTop: $($.attr(this, 'href')).offset().top + "px"
+         scrollTop: $($.attr(this, 'href')).offset().top - navHeight + "px"
       }, {
          duration: 800,
          easing: "swing"
